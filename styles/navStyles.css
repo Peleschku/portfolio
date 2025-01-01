@@ -1,0 +1,27 @@
+/* Adding background to the navbar */
+.topnav {
+    background-color: lightsalmon;
+    overflow: hidden;
+}
+
+/* styling links inside of nav bar */
+.topnav a {
+    float: left;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* changing colour of links on hover */
+.topnav a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+/* colour for current/active link */
+.topnav a.active {
+    background-color: aquamarine;
+    color: white;
+}
